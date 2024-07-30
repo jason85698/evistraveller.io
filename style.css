@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+    
+}
+
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #fff;
+
+}
+
+p {
+    text-decoration: none
+    color #333;
+}
+
+ul {
+    list-style: none;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Navbar */
+.navbar {
+    background: #fff;
+    padding: 20px;
+    
+
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.navbar .main-menu ul {
+    display: flex;
+
+}
+
+.navbar .english {
+    background-color: #eeeeef;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: all .5s;
+    cursor: pointer;
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-top: 6px solid #1ab394;
+    color: #41b393 !important;
+    padding: 0 7px 7px 7px;
+    line-height: 20px;
+    position: relative;
+    display: block;
+
+    
+
+}
+
+.navbar ul li a {
+    padding: 10px 20px;
+    display: block;
+    font-weight: 600;
+    transition: 0.5s;
+    padding: 50px 10px 12px 10px;
+    color: #777;
+    position: relative;
+    text-transform: uppercase;
+
+}
+
+.navbar ul li a:hover {
+    color: #1ab394;
+
+}
+
+
+
+/*Utility Classes */
+
+.hero .container {
+    padding-top: 200px;
+}
+
+element.style {
+    color: #41b392;
+}
+
+#track_table > tbody > tr > td {
+    border-top: 1px solid #fff;
+    font-size: 14px;
+}
+#track_table .back {
+    background-color: rgb(238, 238, 238);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 0;
+
+}
+
+nav .world {
+    size: 800px;
+    color: #470505;
+}
+
+
+
+
+/* Header */
+
+
+nav .container .logo .visa {
+    color: #1ab394;
+    font-size: 40px;
+    transition: 0.3s;
+    font-weight: bolder;
+    display: block;
+    
+}
+nav .container .logo :hover {
+    color: #a7a7a7;
+}
+
+p .line1 .line2 {
+    padding: 0 60px 0 0;
+}
+
+nav .container .worldmap {
+width: auto;
+height: 200px;
+position: absolute;
+max-width: 800px;
+float: center;
+margin-left: -300px;
+margin-top: 200px;
+
+
+}
+
+section .logoiran {
+    width: 10px;
+    height: 10px;
+}
+
+p {
+    font-size: 12px;
+    color: #666a6c;
+    padding-left: none;
+    text-align: left;
+
+}
+
+/* Table */
+
+
+
+element.style {
+    box-shadow: none;
+
+}
+.btn-default {
+    box-shadow: 4px 5px 1px #dedede;
+    transition: all 1s;
+}
+.btn-w-m {
+    min-width: 120px;
+}
+.btn {
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 4px;
+}
+.btn-default {
+    background-color: #c2c2c2;
+    border-color: #c2c2c2;
+    color: #FFFFFF;
+}
+.btn-w-m {
+    min-width: 120px;
+}
+.btn {
+    border-radius: 3px;
+}
+
+.btn-primary {
+    background-color: #1ab394;
+    border-color: #1ab394;
+    color: #FFFFFF;
+}
+.btn-w-m {
+    min-width: 120px;
+}
+
+.btn {
+    border-radius: 3px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+
+.button_holder button, .button_holder a {
+    float: right 
+}
+
+
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: 1px solid #e7eaec;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: top;
+}
+
+div .col-md-5 {
+    max-width: 1200px;
+} 
+
+table .table-hover {
+    float: right;
+}
+
+strong {
+    font-weight: bolder;
+    text-align: center;
+    max-width: 1200px;
+}
